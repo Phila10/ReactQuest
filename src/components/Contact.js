@@ -2,7 +2,7 @@ import React from 'react';
 import './Contact.css'
 
 function Contact() {
-    const name = 'DJ KHALED';
+    const name = 'Auxence trop bo <3';
     const online = true;
     return (
     <div className="Contact">
