@@ -24,7 +24,7 @@ const users = [
       online: false
     },
     {
-      name: 'pas idée',
+      name: 'Constiped',
       avatar: 'https://risibank.fr/cache/stickers/d1206/120664-full.png',
       online: true
     }
