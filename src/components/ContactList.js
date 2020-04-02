@@ -30,7 +30,7 @@ const users = [
     }
   ];
   const ContactList = () => (
-      <div> {users.map(ok => (<Contact name={ok.name} avatar={ok.avatar} online={ok.online}/>))}</div>
+      <div> {users.map(ok => (<Contact name={ok.name} avatar={ok.avatar} online={ok.online} key={ok.name}/>))}</div>
   )
 
 export default ContactList;
